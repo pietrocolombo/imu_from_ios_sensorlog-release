@@ -1,0 +1,12 @@
+Source: ros-noetic-imu-from-ios-sensorlog
+Section: misc
+Priority: optional
+Maintainer: usad2 <usad2@todo.todo>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf2
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-noetic-imu-from-ios-sensorlog
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-roscpp, ros-noetic-rospy, ros-noetic-sensor-msgs, ros-noetic-std-msgs, ros-noetic-tf2
+Description: The imu_from_ios_sensorlog package
